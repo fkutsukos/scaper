@@ -68,6 +68,7 @@ distribution tuples to specify possible values) or instantiated (i.e. storing
 constants directly).
 '''
 
+print('.......Modified Scaper version......')
 
 def generate_from_jams(jams_infile,
                        audio_outfile=None,
