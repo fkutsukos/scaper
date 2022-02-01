@@ -2032,7 +2032,7 @@ class Scaper(object):
                         # Normalize to specified SNR with respect to
                         # background
                         gain = self.ref_db + e.value['snr'] - fg_lufs
-                        # event_audio = np.exp(gain * np.log(10) / 20) * event_audio
+                        event_audio = np.exp(gain * np.log(10) / 20) * event_audio
 
                         # Apply short fade in and out
                         # (avoid unnatural sound onsets/offsets)
